@@ -1,0 +1,12 @@
+name: Say Hello
+
+on: push
+
+jobs: 
+  hello_job:
+    runs-on: ubantu-latest
+
+    steps:
+      - name: print Hello 
+        run: echo" Hello from github actions"
+
